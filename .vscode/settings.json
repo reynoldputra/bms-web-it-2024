@@ -1,5 +1,6 @@
 {
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html"
-    }
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "livePreview.defaultPreviewPath": "/handson-tailwind.html"
 }
