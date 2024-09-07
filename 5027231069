@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Template Tailwind | BMS IT 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        corePlugins: {
+          preflight: false
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="min-h-screen bg-gray-900 text-white">
+    <div class="pt-24">
+    <p class="text-2xl text-center">Hello there! I'm Kenas </p>
+    <p class="text-center"> <span class="font-bold"> A junior Architect</span> and <span class="font-bold"> Freelance Graphic Designer</span> </p>
+    </div>
+
+    <div class="border-red-600 flex gap-x-2 px-10 mt-10"> 
+      <p class="font-bold">Home</p>
+      <p class="font-bold">About</p>
+      <p class="font-bold">Resume</p>
+      <p class="font-bold">Service</p>
+      <p class="font-bold">Portfolio</p>
+      <p class="font-bold">Contact</p>
+    </div>
+
+    <div class="w-full flex">
+      <div class="border border-blue-500 w-full p-32">
+        <p class="text-center text-xl font-bold">ABOUT ME</p>
+        <p class="text-center mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis eros nec sapien euismod volutpat. Suspendisse at dolor vehicula, venenatis orci non, ornare neque. Nulla sollicitudin tellus eget tortor pharetra facilisis. Nulla volutpat gravida congue</p>
+        <p class="text-center mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis eros nec sapien euismod volutpat. Suspendisse at dolor vehicula, venenatis orci non, ornare neque. Nulla sollicitudin tellus eget tortor pharetra facilisis. Nulla volutpat gravida congue</p>
+      <div class="flex justify-center gap-x-8 mt-12">
+      <p class="bg-pink-600 w-fit py-2 px-4 rounded-full font-bold">DOWNLOAD CV</p>
+      <p class="bg-pink-600 w-fit py-2 px-4 rounded-full font-bold">DOWNLOAD PORTO</p>
+      </div>
+      </div>
+      <div class="border border-purple-400 w-full flex justify-center">
+        <img src="./assets/its.png" width="300" class="object-contain"/>
+      </div>
+    </div>
+  </body>
+</html>
